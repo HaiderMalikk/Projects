@@ -1,0 +1,18 @@
+Account Number: 98765432
+Username: My Checkings
+Balance: $1450.0
+
+Transaction History:
+Deposit: $2000.0
+Deposit: $25.0
+Withdraw: $500.0
+Withdraw For Transfer: $225.0
+Transfer: $225.0 (Sent to Account #12345678)
+Direct Deposit: $150.0 (From Account #12345678)
+
+Failed Transactions:
+Withdraw: $100.0 - Your Account Number Was Entered Incorrectly
+Deposit: $200000.0 - Your Account Number Was Entered Incorrectly
+Withdraw: $100000.0 - Insufficient funds
+Transfer: $200000.0 (To Account #12345678) - Insufficient funds
+Transfer: $250000.0 (To Account #12345678) - Your Account Number Was Entered Incorrectly
