@@ -1,0 +1,18 @@
+Account Number: 12345678
+Username: My Savings
+Balance: $475.0
+
+Transaction History:
+Deposit: $1000.0
+Withdraw: $500.0
+Withdraw: $100.0
+Direct Deposit: $225.0 (From Account #98765432)
+Withdraw For Transfer: $150.0
+Transfer: $150.0 (Sent to Account #98765432)
+
+Failed Transactions:
+Withdraw: $100.0 - Your Account Number Was Entered Incorrectly
+Deposit: $8000.0 - Your Account Number Was Entered Incorrectly
+Withdraw: $1000000.0 - Insufficient funds
+Transfer: $100000.0 (To Account #98765432) - Insufficient funds
+Transfer: $500000.0 (To Account #98765432) - Your Account Number Was Entered Incorrectly
