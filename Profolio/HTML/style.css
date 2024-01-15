@@ -1,0 +1,167 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.title-bar {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(21, 180, 58);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+}
+.header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(0, 136, 239);
+    max-width: 600px; 
+    margin: 0 auto; /* Center the header */
+}
+
+.header h1 {
+    margin: 0;
+    word-wrap: break-word; /* Allow long words to break and wrap */
+}
+
+.header p {
+    word-wrap: break-word; /* Allow long words in the paragraph to break and wrap */
+}
+.project-square {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border: 2px solid white;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    flex-direction: column;
+    position: relative;
+}
+
+.project-square:hover {
+    opacity: 0.8;
+}
+
+.project-square .title,
+.project-square .description {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.project-square .title {
+    top: -30px;
+    left: 0;
+    font-size: 1.2em;
+}
+
+.project-square .description {
+    top: 107%;
+    transform: translateY(-50%);
+    font-size: 0.9em;
+}
+
+.profile-circle {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px auto;
+    overflow: hidden; /* Ensure image doesn't overflow the circle */
+}
+
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make sure the image covers the entire container */
+}
+
+.project-squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footer {
+    text-align: left;
+    background-color: rgb(0, 136, 239);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden; /* Hide overflow content to create sliding effect */
+}
+
+.footer .links {
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
+}
+
+.footer:hover .links {
+    transform: translateX(-50px); /* Adjust the distance to move links left */
+}
+
+.footer a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.side-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the side content */
+}
+
+.side-content p {
+    word-wrap: break-word; /* Allow long words in the paragraph to break and wrap */
+    text-align: center; /* Center the text within the side content */
+}
+
+.side-content img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.side-content .description {
+    color: white;
+    font-size: 0.9em;
+}

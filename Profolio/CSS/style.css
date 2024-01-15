@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgb(138, 207, 231);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: brown;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.profile-circle {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px auto;
+    /* Add your profile picture as background */
+    /* background-image: url('profile-pic.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.project-squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-square {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 10px;
+    border: 2px solid rgb(19, 143, 136);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-square:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
