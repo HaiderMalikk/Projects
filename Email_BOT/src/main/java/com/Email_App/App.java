@@ -41,7 +41,7 @@ public class App {
 
     private static void createAndShowGUI() {
         JFrame frame = new JFrame("Email App");
-        ImageIcon icon = new ImageIcon("C:\\Users\\haide\\Documents\\Code\\com.email_sending\\LOGO.jpg");
+        ImageIcon icon = new ImageIcon("C:\\Users\\haide\\Documents\\Code\\Email_BOT\\LOGO.jpg");
         frame.setIconImage(icon.getImage());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -188,7 +188,7 @@ public class App {
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("haidersemailbot@gmail.com", "uwmw nvyy fcnr apzp");
+                return new PasswordAuthentication("haidersemailbot@gmail.com", "PASSWORD HERE");
             }
         });
 
