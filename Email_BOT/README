@@ -1,1 +1,2 @@
-# to use this just change the password and username to a valid gmail adress 
+# to use this just change the password and username to a valid gmail address there are many email Arguments use ctrl+f and search @gmail to find them all, then find PASSWORDHERE argument that is where you will enter you password
+NOTE to get your account to work you need to activate 2 step authentication and then get a app password input this as the password in app.java and your good to go!
