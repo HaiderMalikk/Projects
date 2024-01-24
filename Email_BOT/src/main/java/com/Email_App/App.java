@@ -1,3 +1,4 @@
+// NOTE this code will not run until you change the username and password
 package com.Email_App;
 
 import java.io.File;
