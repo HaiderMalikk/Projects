@@ -1,4 +1,6 @@
 // NOTE this code will not run until you change the username and password
+
+// TODO: add the login page and  form to authenticate a user.  Then, use that information to make requests to the API using
 package com.Email_App;
 
 import java.io.File;
