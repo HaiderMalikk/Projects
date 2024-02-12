@@ -6,6 +6,7 @@ package com.Email_App;
 import java.io.File;
 import java.util.Properties;
 
+// swing imports NOTE try using a diffrent UI 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
